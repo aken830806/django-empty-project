@@ -1,0 +1,29 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	border: none;
+}
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+form {
+	margin: 0px;
+}
+
+#warp {
+	display: table;
+	height: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 600px;
+}
+
+.selector{
+	text-align: center;
+}
