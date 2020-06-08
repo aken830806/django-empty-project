@@ -20,3 +20,5 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "EmptyProject.settings")
 # settings.py
 ROOT_URLCONF = 'EmptyProject.urls'
 WSGI_APPLICATION = 'EmptyProject.wsgi.application'
+```
+詳細安裝說明可參考[Django安裝筆記](https://hackmd.io/@njzhan/Sk7EFx5pB)
