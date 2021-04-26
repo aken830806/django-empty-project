@@ -1,9 +1,8 @@
 # DEBUG = True
-DEBUG = False
 
 DOMAIN_NAME = ''
 
-ALLOWED_HOSTS = ['<host_ip>']
+ALLOWED_HOSTS = [DOMAIN_NAME, '<other_host']
 
 DATABASES = {
     'default': {
@@ -11,8 +10,8 @@ DATABASES = {
         'NAME': '<database_name>',  # Or path to database file if using sqlite3.
         'USER': '<user>',  # Not used with sqlite3.
         'PASSWORD': '<password>',  # Not used with sqlite3.
-        'HOST': '<host>',  # Set to empty string for localhost. Not used with sqlite3.
-        'PORT': '<port>',  # Set to empty string for default. Not used with sqlite3.
+        'HOST': 'localhost',  # Set to empty string for localhost. Not used with sqlite3.
+        'PORT': '3306',  # Set to empty string for default. Not used with sqlite3.
         'OPTIONS': {'charset': 'utf8mb4'},
     },
 }
