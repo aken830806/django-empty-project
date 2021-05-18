@@ -2,7 +2,7 @@
 
 DOMAIN_NAME = ''
 
-ALLOWED_HOSTS = [DOMAIN_NAME, '<other_host']
+ALLOWED_HOSTS = [DOMAIN_NAME, '<other_host>']
 
 DATABASES = {
     'default': {
