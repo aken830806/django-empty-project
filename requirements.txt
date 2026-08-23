@@ -1,2 +1,2 @@
-Django==5.2.13
+Django==5.2.16
 mysqlclient
